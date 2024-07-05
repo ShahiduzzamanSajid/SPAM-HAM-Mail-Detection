@@ -24,6 +24,45 @@ This project is a spam mail detection system built using machine learning and St
   - **Techniques Used :** SMOTE is used to balance the class distribution in the dataset.
 - **Pickle :** A module for serializing and deserializing Python objects. It is used for saving and loading the trained model and vectorizer.
 
+## Installation Instructions
+To get a local copy of the project up and running, follow these simple steps:
+
+1. **Clone the Repository :**
+   
+   ```bash
+   git clone https://github.com/ShahiduzzamanSajid/SPAM-HAM-Mail-Detection.git
+   cd SPAM-HAM-Mail-Detection
+
+ 2. **Install the Required Libraries :**
+   To install all the necessary libraries and dependencies for the project, you can use the **requirements.txt** file. Run the following command:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+    Alternatively, you can install the libraries manually with the following commands:
+
+    ```bash
+    pip install pandas
+    pip install numpy
+    pip install scikit-learn
+    pip install imbalanced-learn
+    pip install streamlit
+
+ 3. **Run the Streamlit App :**
+  
+     ```bash
+     streamlit run Mail_detection_latest.py
+     
 
 ## Contributing
-Contributions to improve Real-Time Spam ham Detection are welcome. Please fork the repository, make your changes, and submit a pull request.
+Contributions to improve Real-Time Spam ham Detection are welcome. To contribute, follow these steps :
+
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name.
+3. Make your changes and commit them with clear comments.
+4. Push your changes to your fork.
+5. Open a pull request, explaining the changes made.
+
+## License
+This project is licensed under the MIT License. 
